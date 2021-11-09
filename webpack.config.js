@@ -10,6 +10,7 @@ module.exports = {
     output: {
         filename: '[name]/build.js',
         path: path.resolve(__dirname, 'build'),
+        publicPath: './'
     },
     module: {
         rules: [
