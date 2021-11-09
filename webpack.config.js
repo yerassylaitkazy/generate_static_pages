@@ -34,5 +34,9 @@ module.exports = {
             filename: 'pageTwo.html',
             chunks: ['pageTwo']
         })
-    ]
+    ],
+    devServer: {
+        compress: false,
+        port: 3000
+    }
 }
