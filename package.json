@@ -8,6 +8,7 @@
     "start": "webpack serve --mode=development"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "rxjs": "^7.4.0"
   },
   "devDependencies": {
